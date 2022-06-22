@@ -7,14 +7,17 @@ body {
   margin: 0;
   font-family: "JetBrains Mono", monospace;
   font-size: 14px;
-  background-color: mediumturquoise;
 }
 
-a {
+.white-bg {
+  background-color: white;
+}
+
+.folder {
   text-decoration: none; 
+  color: black;
 
   position: absolute;
-
   left:   calc(var(--left) - var(--width) / 2);
   top:    calc(var(--top) - var(--height) / 2);  
   width: var(--width);
@@ -26,7 +29,7 @@ a {
   justify-content: center;
 }
 
-a:hover {
+.folder:hover {
   border-width: 1px;
   border-style: dotted;
   width:  calc(var(--width) - 2px);
@@ -40,21 +43,25 @@ img {
   padding-bottom: .5rem;
 }
 
-span {
-  color: black;
-}
-
-.inside-folder {
-  margin: 3%;
-  width: 450px;
-  background-color: black;
-  color: white;
-}
-
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: .5rem;
+}
+
+.inside {
+  margin: 3%;
+  width: 450px;
+}
+
+.arrow {
+  text-decoration: none;
+  color: white;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
 }
