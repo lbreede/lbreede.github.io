@@ -1,0 +1,60 @@
+:root {
+  --width: 128px;
+  --height: 128px;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  background-color: mediumturquoise;
+}
+
+a {
+  text-decoration: none; 
+
+  position: absolute;
+
+  left:   calc(var(--left) - var(--width) / 2);
+  top:    calc(var(--top) - var(--height) / 2);  
+  width: var(--width);
+  height: var(--height);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover {
+  border-width: 1px;
+  border-style: dotted;
+  width:  calc(var(--width) - 2px);
+  height: calc(var(--height) - 2px);  
+}
+
+img {
+  width:  calc(var(--width)  / 2);
+  height: calc(var(--height) / 2);
+  image-rendering: pixelated;
+  padding-bottom: .5rem;
+}
+
+span {
+  color: black;
+}
+
+.inside-folder {
+  margin: 3%;
+  width: 450px;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: .5rem;
+}
