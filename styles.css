@@ -15,7 +15,7 @@ body {
   position: absolute;
   left: calc(var(--left) - var(--width) / 2);
   top: calc(var(--top) - var(--height) / 2);  
-  width: var(--width);
+  width: calc(var(--width) * 1.25);
   height: var(--height);
 
   display: flex;
@@ -27,7 +27,7 @@ body {
 .folder:hover {
   border-width: 1px;
   border-style: dotted;
-  width: calc(var(--width) - 2px);
+  width: calc(var(--width) * 1.25 - 2px);
   height: calc(var(--height) - 2px);  
 }
 
