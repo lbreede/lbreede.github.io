@@ -7,8 +7,12 @@ body {
   margin: 0;
   font-family: "JetBrains Mono", monospace;
   font-size: 16px;
-  background-color: white;
-  color: black;
+  background-color: #00807F;
+  color: white;
+}
+
+.readme {
+  background-color: black;
 }
 
 .folder {
@@ -42,10 +46,10 @@ main {
   margin: 2rem;
 }
 
-/* a {
-  color: black;
+a {
+  color: white;
   text-decoration: none; 
-} */
+}
 
 ul {
   list-style: none;
