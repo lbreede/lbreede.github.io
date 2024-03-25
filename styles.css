@@ -11,10 +11,10 @@ body {
   color: black;
 }
 
-.folder {  
+.folder {
   position: absolute;
   left: calc(var(--left) - var(--width) / 2);
-  top: calc(var(--top) - var(--height) / 2);  
+  top: calc(var(--top) - var(--height) / 2);
   width: calc(var(--width) * 1.25);
   height: var(--height);
 
@@ -28,7 +28,7 @@ body {
   border-width: 1px;
   border-style: dotted;
   width: calc(var(--width) * 1.25 - 2px);
-  height: calc(var(--height) - 2px);  
+  height: calc(var(--height) - 2px);
 }
 
 img {
@@ -42,10 +42,10 @@ main {
   margin: 2rem;
 }
 
-a {
+/* a {
   color: black;
   text-decoration: none; 
-}
+} */
 
 ul {
   list-style: none;
