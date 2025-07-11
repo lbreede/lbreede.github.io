@@ -103,3 +103,10 @@ footer {
   top: auto;
   left: auto;
 }
+
+.folder span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  word-break: break-all;
+}
