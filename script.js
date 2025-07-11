@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let dragTarget = null;
   let offsetX = 0;
   let offsetY = 0;
+  let dragMoved = false;
 
   folderDivs.forEach(div => {
     div.style.cursor = 'grab';
@@ -70,8 +71,19 @@ document.addEventListener('DOMContentLoaded', () => {
       offsetY = e.clientY - div.offsetTop;
       div.style.zIndex = 1000;
       div.style.cursor = 'grabbing';
+      dragMoved = false;
       e.preventDefault();
     });
+    // Prevent click on link if drag occurred
+    const link = div.querySelector('a.folder');
+    if (link) {
+      link.addEventListener('click', function(e) {
+        if (dragMoved) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+    }
   });
 
   document.addEventListener('mousemove', (e) => {
@@ -83,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
       y = Math.max(0, Math.min(window.innerHeight - dragTarget.offsetHeight, y));
       dragTarget.style.left = x + 'px';
       dragTarget.style.top = y + 'px';
+      dragMoved = true;
     }
   });
 
