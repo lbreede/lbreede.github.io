@@ -9,6 +9,8 @@ body {
   font-size: 16px;
   background-color: #00807F;
   color: white;
+  position: relative;
+  min-height: 100vh;
 }
 
 .readme {
@@ -69,4 +71,33 @@ nav {
 footer {
   position: fixed;
   bottom: 0;
+}
+
+.folder-pos {
+  position: absolute;
+}
+
+.readme-pos {
+  top: 20%;
+  left: 10%;
+}
+
+.blog-pos {
+  top: 35%;
+  left: 30%;
+}
+
+.project-pos {
+  top: 55%;
+  left: 20%;
+}
+
+.trash-pos {
+  top: 40%;
+  left: 60%;
+}
+
+.doom-pos {
+  top: 65%;
+  left: 70%;
 }
