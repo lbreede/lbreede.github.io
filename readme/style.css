@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 11px;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;   /* this centers it */
+  text-align: left; /* keep text left-aligned */
+}
+
+a:link {
+  text-decoration: none;
+  color: #990000;
+}
+a:visited {
+  color: #CC0000;
+}
+a:hover {
+  color: #009;
+}
