@@ -2,7 +2,7 @@
 
                                  LENNART BREEDE
                                  March 12, 1996
-                           Updated August 16th, 2025
+                           Updated January 9th, 2026
 
 -------------------------------------------------------------------------------
 
@@ -21,6 +21,15 @@ Part Three: Interviews
                                  VFX/ANIMATION
 
 ===============================================================================
+
+Steps
+        2026        Netflix Animation Studios
+
+        Blamed for magical mischief at the Royal Ball, stepsister Lilith turns
+        her sister into a frog. She must work with Cinderella and a troll to
+        save the kingdom and prove villains deserve happy endings too.
+
+-------------------------------------------------------------------------------
 
 Leo
         2023        Animal Logic

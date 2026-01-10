@@ -29,6 +29,12 @@ Entries = list[Entry]
 
 VFX: Entries = [
     Entry(
+        "Steps",
+        2026,
+        "Netflix Animation Studios",
+        "Blamed for magical mischief at the Royal Ball, stepsister Lilith turns her sister into a frog. She must work with Cinderella and a troll to save the kingdom and prove villains deserve happy endings too.",
+    ),
+    Entry(
         "Leo",
         2023,
         "Animal Logic",
